@@ -1,7 +1,8 @@
 # sherlock-3d-chess
 ## Hackathon - Your move Sherlock! 
 Sherlockiot - Play 3d chess game to reveal clues to world wide connected crime scene.<br/>
-
+Demo 
+![Demo](http://sherlockiot.canlearnit.com/chess.html)<br/>
 ![Poster Connected Crime Scene](https://github.com/mickguy/sherlock-3d-chess/blob/master/SherlockChallenge-sm.jpg) <br/>
 
 ![Screenshot Clue 1](https://github.com/mickguy/sherlock-3d-chess/blob/master/resources/Chess-Clue-1.png)
