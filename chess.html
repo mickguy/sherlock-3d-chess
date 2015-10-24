@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/ecmascript" src="common/xhr.js"></script>
+<script type="text/ecmascript" src="clues.js"></script>
+<script type="text/ecmascript" src="chess.js"></script>
+<link type="text/css" rel="stylesheet" href="css/default.css" />
+<link type="text/css" rel="stylesheet" href="css/chess.css" />
+<link type="text/css" rel="stylesheet" href="skins/gnomechess.css" />
+<title>Sherlockiot Global Challenge Chess Game</title>
+<script type="text/javascript">
+
+function initChess() {
+	chess.useAI(true);
+	chess.setPromotion(0);
+	chess.setFrameRate(1000);
+	chess.setSide(2);
+	chess.useKeyboard(true);
+	chess.placeById("chessDesk");
+	chess.setView(2);
+}
+</script>
+
+</head>
+
+<body onload="initChess();">
+<h1>Sherlockiot Global Challenge Chess Game </h1>
+<audio id="myaudio" src="">Your audio does not support the <code>audio</code> element.</audio>
+
+
+<div id="chessDesk">
+	<div id="clueContainer">
+	<div id="closeContainer" onclick="closeClueContainer()">X</div>
+	<iframe id="youtube" width="320" height="180" src="" frameborder="0" allowfullscreen></iframe>
+	<!--
+	<iframe id="youtube" width="320" height="180" src="https://www.youtube.com/embed/C1K-D35-q1w?rel=0" frameborder="0" allowfullscreen></iframe>
+	<iframe width="320" height="180" src="https://www.youtube.com/embed/yJwyQjf8FUU?rel=0" frameborder="0" allowfullscreen></iframe>
+	-->
+</div>
+</div>
+
+
+</body>
+</html>
